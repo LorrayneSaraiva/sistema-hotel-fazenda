@@ -5,6 +5,10 @@ import lombok.Data;
 @Data
 public class Cadastro {
     private String nome_operador;
-    private Integer celular;
-    private Integer id;
+    private String cpf;
+    private Long id;
+
+    public void cadastrarOperador(){
+
+    }
 }
