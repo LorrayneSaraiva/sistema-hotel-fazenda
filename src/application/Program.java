@@ -21,14 +21,14 @@ public class Program {
            Operador operador = new Operador();
            
 
-		//Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 
-		//Login login = new Login();
-		//System.out.println("Login");
-		//String nome = sc.nextLine();
-		//System.out.println("Senha");
-		//String senha = sc.nextLine();
-		//login.verificaLogin(nome, senha);
+		Login login = new Login();
+		System.out.println("Login");
+		String nome = sc.nextLine();
+		System.out.println("Senha");
+		String senha = sc.nextLine();
+		login.verificaLogin(nome, senha);
 
 		
 		
@@ -44,11 +44,11 @@ public class Program {
   	// System.out.println("quantos dias");
    	 //Integer qnts_dias = sc.nextInt();
    	 
-   	Reserva reserva = new Reserva(null,"lorrayne" , "cabana" , "hoje" , "hoje ", 4 );
+   //	Reserva reserva = new Reserva(null,"lorrayne" , "cabana" , "hoje" , "hoje ", 4 );
    	
-		reservaDao.insert(reserva);
+		//reservaDao.insert(reserva);
 		
-		System.out.println("Inserted!");
+		//System.out.println("Inserted!");
 		
 		//sc.close();
 	}

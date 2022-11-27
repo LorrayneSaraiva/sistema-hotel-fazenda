@@ -141,7 +141,7 @@ PreparedStatement st = null;
 		try {
 			st = conn.prepareStatement(
 					"select * from reserva "
-					+ "order by nome "
+					+ "order by nome_cli "
 						);
 			
 			
